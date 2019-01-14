@@ -8,31 +8,40 @@ header: Posts By Resume
   <div class="row">
     <div class="col-md-3">
       <div class="sidebar hidden-print" role="complementary">
-        <div id="navigation">
-        	<h1>Tags</h1>
-      		<ul class="nav sidenav">
-				{% if site.categories.first[0] == null %}
-					{% for category in site.categories %} 
-				    	<li><a href="#{{ category }}-ref">
-				    		{{ category | join: "/" }} <span style="color: #999999;" >({{ site.categories[category].size }})</span>
-				    	</a></li>
-			    	{% endfor %}
-			  	{% else %}
-			    	{% for category in site.categories %} 
-				    	<li><a href="#{{ category[0] }}-ref">
-				    		{{ category[0] | join: "/" }} <span style="color: #999999;" >({{ category[1].size }})</span>
-				    	</a></li>
-			    	{% endfor %}
-			  	{% endif %}
-          	</ul>
-        </div>
+	<div id="navigation">
+	  <h1>Jump To</h1>
+	  <ul class="nav sidenav">
+	  </ul>
+	  <div style="height: 200px;width: 200px;">
+	    &nbsp;
+	  </div>
+	</div>
       </div>
     </div>
     <div class="col-md-9" role="main">
       <div class="panel docs-content">
         <div class="wrapper">
           <div class="home">
-          This is Resume Page
+          	This is Resume Page {#jump1} <br/>
+		1 <br/>
+		  1 <br/>
+		  1 <br/>
+		  1 <br/>
+		  1 <br/>
+		  1 <br/>
+		  1 <br/>
+		  1 <br/>
+		  1 <br/>
+		  1 <br/>
+		  1 <br/>
+		  1 <br/>
+		  1 <br/>
+		  1 <br/>
+		  1 <br/>
+		  1 <br/>
+		  1 <br/>
+		  1 <br/>
+		  This is Resume Page {#jump2} <br/>
           </div>
         </div>
       </div>
