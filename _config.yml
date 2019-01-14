@@ -1,15 +1,15 @@
 # Site settings
-name: Yongmin
+name: Yongmin's Dev Lab
 email: hapitd@naver.com
 author: Yongmin
-url: http://www.hifreud.com
-resume_site: http://www.hifreud.com/Resume.io/
-github: https://github.com/luoyan35714/
+url: http://momobs.github.io
+resume_site: http://momobs.github.io/resume
+github: http://github.com/momobs
 baseurl: ""
-description: Actually, less is more!
-meta_description: 康志华;个人博客;学而不思则罔;思而不学则殆;生命不止;折腾不休
-motto: It's our wits that make us men.
-banner: 学而不思则罔，思而不学则殆。
+description: Clean Code!
+meta_description: meta_desc
+motto: 야근할수록 실력은 줄어든다.
+banner: banner
 
 #permalink: /:categories/:year/:month/:day/:title/
 permalink: /:year/:month/:day/:title/
@@ -17,7 +17,7 @@ paginate: 10
 
 exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
 
-github_username: luoyan35714
+github_username: momobs
 
 # Build settings
 markdown: kramdown
